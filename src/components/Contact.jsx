@@ -1,15 +1,16 @@
-// template_v5v4smp
-//service_mv4muja
-// P8U0SXkMsvkEGZgfz
+
 
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -20,6 +21,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [successMessage, setSuccessMessage] = useState("");
 
   const handleChange = (e) => {
     const { target } = e;
@@ -31,27 +33,31 @@ const Contact = () => {
     });
   };
 
+  const handleOkButtonClick = () => {
+    setSuccessMessage("");
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        'service_mv4muja',
-        'template_v5v4smp',
+        'service_qqijswj',
+        'template_7yjcrh',
         {
           from_name: form.name,
-          to_name: "Nazia",
+          to_name: "Manish",
           from_email: form.email,
-          to_email: "tnazia377@gmail.com",
+          to_email: "manishtomar.uk@gmail.com",
           message: form.message,
         },
-        'P8U0SXkMsvkEGZgfz'
+        '1LRgJyQnKzbS93Zig'
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          setSuccessMessage("Message sent successfully!");
 
           setForm({
             name: "",
@@ -63,7 +69,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          setSuccessMessage("Something went wrong. Please try again.");
         }
       );
   };
@@ -78,6 +84,29 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <div className="flex ">
+          <div className="flex items-center justify-center p-5 rounded-xl shadow-xl transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 duration-300 hover:border-4 border-solid border-linkedInBorder">
+            <a
+              href="https://www.linkedin.com/in/manishtomar1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-3xl text-linkedInBorder "
+            >
+              <FaLinkedin />
+            </a>
+          </div>
+          <div className="flex items-center justify-center p-5 rounded-xl shadow-xl transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 duration-300 hover:border-4 border-solid border-instaBorder">
+      <a
+        href="https://www.instagram.com/your_instagram"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-3xl text-instaBorder hover:text-HoverInsta"
+      >
+        <FaInstagram /> {/* Use the Instagram icon component */}
+      </a>
+    </div>
+
+        </div>
 
         <form
           ref={formRef}
@@ -88,6 +117,7 @@ const Contact = () => {
             <span className='text-white font-medium mb-4'>Your Name</span>
             <input
               type='text'
+              required
               name='name'
               value={form.name}
               onChange={handleChange}
@@ -98,6 +128,7 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your email</span>
             <input
+            required
               type='email'
               name='email'
               value={form.email}
@@ -110,6 +141,7 @@ const Contact = () => {
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
               rows={7}
+              required
               name='message'
               value={form.message}
               onChange={handleChange}
@@ -120,11 +152,25 @@ const Contact = () => {
 
           <button
             type='submit'
+            disabled={loading}
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        {successMessage && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75">
+          <div className="bg-primary p-8 rounded-lg">
+            <p className="text-center text-xl mb-4">{successMessage}</p>
+            <button
+              onClick={handleOkButtonClick}
+              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      )}
       </motion.div>
 
       <motion.div

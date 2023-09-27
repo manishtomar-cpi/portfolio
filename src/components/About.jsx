@@ -47,8 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-       Welcome to my portfolio! I am a MERN (MongoDB, Express.js, React.js, Node.js) developer with proficiency in Flutter, DSA (Data Structures and Algorithms), DBMS (Database Management Systems), Java, and various other computer fundamentals. Additionally, I am well-versed in using Git for version control.
-        As a proactive communicator and collaborative team player, I thrive in fast-paced environments and continuously seek opportunities to learn and grow.
+       Experienced Software Development Engineer with a proven track record at MoonDive, India, and currently pursuing a Master's in Software Engineering at Cardiff University, UK. Adept at leveraging the MERN stack, including Next.js, Tailwind CSS, Material UI and Cloud Computing, to craft efficient and visually appealing web applications. Proficient in data science, Strong proficiency in Data Structures and Algorithms (DSA) alongside expertise in C++, enhancing software development capabilities. Possesses a solid educational background with a Master's in Computer Applications and a Bachelor's in Computer Applications, providing a robust foundation for software engineering and development. Committed to delivering high-quality, scalable solutions to meet diverse business needs.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

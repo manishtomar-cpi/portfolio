@@ -21,6 +21,19 @@ import {
     jobit,
     tripguide,
     threejs,
+    cloud,
+    data,
+    problem,
+    moondive,
+    cpp,
+    next,
+    python,
+    cardiff,
+    mmmut,
+    dewan,
+    mscafe, 
+    expense,
+    todo
   } from "../assets";
   
   export const navLinks = [
@@ -33,9 +46,13 @@ import {
       title: "Work",
     },
     {
+      id: "education",
+      title: "Education",
+    },
+    {
       id: "contact",
       title: "Contact",
-    },
+    },    
   ];
   
   const services = [
@@ -44,16 +61,16 @@ import {
       icon: web,
     },
     {
-      title: "Android Developer (Flutter)",
-      icon: mobile,
+      title: "Cloud Computing",
+      icon: cloud,
     },
     {
-      title: "Web 3",
-      icon: backend,
+      title: "Data Science",
+      icon: data,
     },
     {
-      title: "Blockchain",
-      icon: creator,
+      title: "Problem Solving",
+      icon: problem,
     },
   ];
   
@@ -67,25 +84,22 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
-      name: "flutter",
-      icon: flutter,
+      name: "JavaScript",
+      icon: javascript,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Next JS",
+      icon: next,
     },
+    
     {
       name: "Node JS",
       icon: nodejs,
@@ -94,49 +108,93 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
+ 
+     {
+      name: "Python",
+      icon: python,
+    },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "C++",
+      icon: cpp,
     },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "java",
-      icon: java,
-    },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
+    
+    
   ];
   
   const experiences = [
     {
-      title: "Summer Intern",
-      company_name: "Hindustan Aeronautics Limited",
-      icon: hal,
+      title: "Software Development Engineer",
+      company_name: "MoonDive Pvt Ltd, India",
+      icon: moondive,
       iconBg: "#383E56",
-      date: "June 2023 - Present",
+      date: "June 2023 - September 2023",
       points: [
-        "Internship at HAL (Hindustan Aeronautics Limited) focused on developing software for the flight data recorder (FDR) and automating parameter analysis based on pilot voice recorded in the Data Acquisition Unit (DAU).",
-        "Actively involved in the design and development of the software for the FDR, which includes capturing, storing, and retrieving flight data.",
-        "Utilized various software engineering concepts, including the Software Development Life Cycle (SDLC), to ensure a systematic and organized approach to software development.",
-        "Engaged in continuous learning and professional development, staying up-to-date with the latest advancements in software engineering and aviation technology to enhance the effectiveness of the software solution.",
+        "Worked as a Software Development Engineer (SDE) at Moondive, Designed and developed a robust real estate web application using Next.js and the MERN stack (MongoDB, Express.js, React, Node.js).",
+        "Employed Tailwind CSS and Material-UI to enhance the application's user interface, ensuring a sleek and intuitive user experience.",
+        "Utilized data science techniques to enhance the application's functionality, particularly focusing on a recommendation modal.",
+        "Integrated AWS services such as SES (Simple Email Service) and S3 for efficient email sending and image storage within the application",
+        "Collaborated with cross-functional teams to ensure seamless integration and delivery of features, meeting project deadlines and exceeding client expectations.",
+      ],
+    },
+    // {
+    //   title: "Frontend Web Development Intern",
+    //   company_name: "Croptr Technologies Privated Limited",
+    //   icon: croptr,
+    //   iconBg: "#E6DEDD",
+    //   date: "Sep 2022 - Feb 2023",
+    //   points: [
+    //     "Worked on two exciting web and android application project, leveraging the power of Javascript, React.js, Dart and Flutter to create a cutting-edge platform.",
+    //     "Collaborated with a talented team to design and develop innovative features, ensuring seamless user experiences and optimal performance.",
+    //     "Proactively stayed updated with the latest trends and technologies in web development, contributed to the team's continuous growth and improvement.",
+    //     "Embraced an agile development environment, adapting to changing priorities, and ensuring successful project completion.",
+    //   ],
+    // },
+  ];
+
+  const educations = [
+    {
+      degree: "M.Sc in Software Engineering",
+      institution_name: "Cardiff University, Cardiff, United Kingdom",
+      icon: cardiff,
+      iconBg: "#383E56",
+      date: "September 2023 - September 2025",
+      highlights: [
+        "Pursuing MSc in Software Engineering with a focus on web applications and agile software development in first semester at Cardiff University.",
+        "Relevant coursework includes web application development, agile software development, and Java programming.",
+        "Proficient in Java, HTML, CSS, and JavaScript for web application development.",
+        "Familiarity with Agile methodologies such as Scrum and Kanban for project coordination and iterative development.",
       ],
     },
     {
-      title: "Frontend Web Development Intern",
-      company_name: "Croptr Technologies Privated Limited",
-      icon: croptr,
-      iconBg: "#E6DEDD",
-      date: "Sep 2022 - Feb 2023",
-      points: [
-        "Worked on two exciting web and android application project, leveraging the power of Javascript, React.js, Dart and Flutter to create a cutting-edge platform.",
-        "Collaborated with a talented team to design and develop innovative features, ensuring seamless user experiences and optimal performance.",
-        "Proactively stayed updated with the latest trends and technologies in web development, contributed to the team's continuous growth and improvement.",
-        "Embraced an agile development environment, adapting to changing priorities, and ensuring successful project completion.",
+      degree: "Master's in Computer Applications (Hons)",
+      institution_name: "Madan Mohan Malaviya University of Technology, Garakhpur, India",
+      icon: mmmut,
+      iconBg: "#383E56",
+      date: "November 2021 - September 2023",
+      highlights: [
+        "Completed Master of Computer Applications (MCA) with Honors from Madan Mohan Malaviya Gorakhpur University, India.",
+        "Developed MS Cafe an online food ordering web application.",
+        "Proficient in Java, Python, and data structures, utilizing them for diverse projects and applications.",
+        "Studied and applied artificial intelligence concepts, understanding machine learning algorithms and AI models for problem-solving.",
+        "Acquired knowledge and skills in data science, encompassing data analysis, visualization, and predictive modeling.",
+      ],
+    },
+    {
+      degree: "Bachelor's in Computer Applications",
+      institution_name: "Dewan VS Group of Institutions, Meerut, India",
+      icon: dewan,
+      iconBg: "#383E56",
+      date: "August 2017 - July 2020",
+      highlights: [
+        "Completed Master of Computer Applications (MCA) with Honors from Madan Mohan Malaviya Gorakhpur University, India.",
+        "Developed MS Cafe an online food ordering web application.",
+        "Proficient in Java, Python, and data structures, utilizing them for diverse projects and applications.",
+        "Studied and applied artificial intelligence concepts, understanding machine learning algorithms and AI models for problem-solving.",
+        "Acquired knowledge and skills in data science, encompassing data analysis, visualization, and predictive modeling.",
       ],
     },
   ];
@@ -163,70 +221,72 @@ import {
   
   const projects = [
     {
-      name: "SynkClip",
+      name: "MS Cafe",
       description:
-        "SynkClip enables seamless synchronization of clipboards between a personal computer and an Android device. The primary objective is to provide users with a more efficient and convenient method of transferring information, ultimately eliminating the need to rely on platforms such as WhatsApp web.",
+        "MS CAFE is a comprehensive and intuitive online food ordering application designed to provide a seamless online food ordering experience to its users. The app is built using React.js, for building user interfaces, and incorporates features such as Context API, useState Hook, useReducer Hook, useRef Hook, and forwardRef to ensure efficient and optimized performance.",
       tags: [
         {
-          name: "flutter",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "firebase",
+          name: "Hooks",
           color: "green-text-gradient",
         },
         {
-          name: "firefoxExtension",
+          name: "Context API",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/naziaaa/text_sync",
+      image: mscafe,
+      source_code_link: "https://github.com/manishtomarr1/food-order-app-MS-Cafe-",
     },
     
     {
-      name: "Vaartapatram",
+      name: "Expense Tracker",
       description:
-        "Vaartapatram is an android app made with Flutter that allows users to easily access the latest news from around the world. The app uses the newsapi.org API to fetch news articles from a variety of sources and allows users to filter the news by category.",
+        "The Expense Tracker React App is a web application designed to help users keep track of their daily expenses. With this app, users can easily add their expenses, view their spending history, and track their budgets all in one place.",
       tags: [
         {
-          name: "flutter",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "API",
-          color: "green-text-gradient",
-        },
-        {
-          name: "dart",
+          name: "React",
           color: "pink-text-gradient",
         },
+        {
+          name: "Context API",
+          color: "green-text-gradient",
+        },
+        // {
+        //   name: "dart",
+        //   color: "pink-text-gradient",
+        // },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/naziaaa/vaartapatram",
+      image: expense,
+      source_code_link: "https://github.com/manishtomarr1/Expense-Tracker-",
     },
     {
-      name: "Space Explorer",
+      name: "TO DO List",
       description:
-        "Explore the vastness of space with our React.js-powered application. With real-time updates from NASA's API, you can see the latest images and information from space in stunning detail.",
+        "The To-Do List Web App is a web-based application designed to help users keep track of their daily tasks and priorities. The app is built using JavaScript, MongoDB, and Node.js. The front-end is developed using HTML, CSS, and JavaScript, while the back-end is developed using Node.js and MongoDB to store and retrieve task data.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "API",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "javaScript",
+          name: "EJS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/naziaaa/NASA_APOD",
+      image: todo,
+      source_code_link: "https://github.com/manishtomarr1/to-do-list",
     },
+
+    
     
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, educations };
