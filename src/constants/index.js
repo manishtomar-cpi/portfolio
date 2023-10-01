@@ -185,16 +185,15 @@ import {
     },
     {
       degree: "Bachelor's in Computer Applications",
-      institution_name: "Dewan VS Group of Institutions, Meerut, India",
+      institution_name: "Chaudhary Charan Singh Universit, Meerut, India",
       icon: dewan,
       iconBg: "#383E56",
       date: "August 2017 - July 2020",
       highlights: [
-        "Completed Master of Computer Applications (MCA) with Honors from Madan Mohan Malaviya Gorakhpur University, India.",
-        "Developed MS Cafe an online food ordering web application.",
-        "Proficient in Java, Python, and data structures, utilizing them for diverse projects and applications.",
-        "Studied and applied artificial intelligence concepts, understanding machine learning algorithms and AI models for problem-solving.",
-        "Acquired knowledge and skills in data science, encompassing data analysis, visualization, and predictive modeling.",
+        "Completed Bachelors of Computer Applications (BCA) from Chaudhary Charan Singh University, Meerut, India.",
+        "Developed Library Management Stytem software which use to manage the library.",
+        "Proficient in C, C++, and Computer Network, utilizing them for diverse projects.",
+        "Studied and applied concepts related to database management and computer organization.",
       ],
     },
   ];
