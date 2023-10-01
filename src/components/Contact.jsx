@@ -85,7 +85,7 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <div className="flex ">
-          <div className="flex items-center justify-center p-5 rounded-xl shadow-xl transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 duration-300 hover:border-4 border-solid border-linkedInBorder">
+          {/* <div className="flex items-center justify-center p-5 rounded-xl shadow-xl transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 duration-300 hover:border-4 border-solid border-linkedInBorder">
             <a
               href="https://www.linkedin.com/in/manishtomar1"
               target="_blank"
@@ -94,8 +94,8 @@ const Contact = () => {
             >
               <FaLinkedin />
             </a>
-          </div>
-          <div className="flex items-center justify-center p-5 rounded-xl shadow-xl transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 duration-300 hover:border-4 border-solid border-instaBorder">
+          </div> */}
+          {/* <div className="flex items-center justify-center p-5 rounded-xl shadow-xl transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 duration-300 hover:border-4 border-solid border-instaBorder">
       <a
         href="https://www.instagram.com/your_instagram"
         target="_blank"
@@ -103,8 +103,8 @@ const Contact = () => {
         className="text-3xl text-instaBorder hover:text-HoverInsta"
       >
         <FaInstagram /> {/* Use the Instagram icon component */}
-      </a>
-    </div>
+      {/* </a>
+    </div> */} 
 
         </div>
 
