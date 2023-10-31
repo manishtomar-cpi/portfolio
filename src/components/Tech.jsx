@@ -10,16 +10,16 @@ const Tech = () => {
       <p className={styles.sectionSubText}>Array of skills</p>
       <h2 className={`${styles.sectionHeadText} mb-5`}>My Expertise.</h2>
       <div className="flex flex-row flex-wrap justify-center gap-10">
-      {technologies.slice(0, 5).map((technology) => (
+      {technologies.slice(1,10).map((technology) => (
   <div className="w-28 h-28" key={technology.name}>
     <BallCanvas icon={technology.icon} />
   </div>
 ))}
-    {technologies.slice(5, 10).map((technology) => (
+    {/* {technologies.slice(5, 10).map((technology) => (
   <div className="w-28 h-28" key={technology.name}>
     <BallCanvas icon={technology.icon} />
   </div>
-))}
+))} */}
  
 
       </div>
