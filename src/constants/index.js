@@ -292,10 +292,6 @@ import {
           name: "MongoDB",
           color: "green-text-gradient",
         },
-        {
-          name: "EJS",
-          color: "pink-text-gradient",
-        },
       ],
       image: todo,
       source_code_link: "https://github.com/manishtomarr1/to-do-list",
