@@ -1,5 +1,4 @@
 import React from "react";
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { styles } from "../styles";
@@ -10,18 +9,11 @@ const Tech = () => {
       <p className={styles.sectionSubText}>Array of skills</p>
       <h2 className={`${styles.sectionHeadText} mb-5`}>My Expertise.</h2>
       <div className="flex flex-row flex-wrap justify-center gap-10">
-      {technologies.slice(1,10).map((technology) => (
-  <div className="w-28 h-28" key={technology.name}>
-    <BallCanvas icon={technology.icon} />
-  </div>
-))}
-    {/* {technologies.slice(5, 10).map((technology) => (
-  <div className="w-28 h-28" key={technology.name}>
-    <BallCanvas icon={technology.icon} />
-  </div>
-))} */}
- 
-
+        {technologies.map((technology, index) => (
+          <div className="w-28 h-28 rounded-lg text-white flex items-center justify-center" style={{ backgroundColor: "#1d1836" }} key={technology.name}>
+            <img src={technology.icon} alt="" />
+          </div>
+        ))}
       </div>
     </>
   );
