@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaLinkedin, FaInstagram, FaGithub, FaFilePdf } from 'react-icons/fa';
+// import { FaLinkedin, FaInstagram, FaGithub, FaFilePdf } from 'react-icons/fa';
 
 
 import { styles } from "../styles";
@@ -24,7 +24,7 @@ const Hero = () => {
             I am a <br className="sm:block hidden" />
             Software Engineer.
           </p>
-          <div className="flex space-x-4 mt-2">
+          {/* <div className="flex space-x-4 mt-2">
             <a href="https://www.linkedin.com/in/manishtomar1/" className="cursor-pointer" target="_blank">
               <FaLinkedin size={35} color="#0077B5" />
             </a>
@@ -37,7 +37,7 @@ const Hero = () => {
             <a href="/assets/resume.pdf"  download="Manish_Resume.pdf"className="cursor-pointer" target="_blank">
               <FaFilePdf size={35} color="#FF5722" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <ComputersCanvas />
