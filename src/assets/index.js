@@ -28,6 +28,9 @@ import next from "./tech/next.png";
 import hal from "./company/hal.png";
 import croptr from "./company/croptr.png"
 import moondive from "./company/moondive.png"
+import skyscanner from "./company/download.png"
+import jp from "./company/jp.png"
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -84,4 +87,6 @@ export {
   mscafe,
   expense,
   todo,
+  skyscanner,
+  jp,
 };

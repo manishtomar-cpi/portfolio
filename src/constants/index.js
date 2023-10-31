@@ -33,7 +33,9 @@ import {
     dewan,
     mscafe, 
     expense,
-    todo
+    todo,
+    skyscanner,
+    jp
   } from "../assets";
   
   export const navLinks = [
@@ -133,26 +135,41 @@ import {
       iconBg: "#383E56",
       date: "June 2023 - September 2023",
       points: [
-        "Worked as a Software Development Engineer (SDE) at Moondive, Designed and developed a robust real estate web application using Next.js and the MERN stack (MongoDB, Express.js, React, Node.js).",
-        "Employed Tailwind CSS and Material-UI to enhance the application's user interface, ensuring a sleek and intuitive user experience.",
-        "Utilized data science techniques to enhance the application's functionality, particularly focusing on a recommendation modal.",
-        "Integrated AWS services such as SES (Simple Email Service) and S3 for efficient email sending and image storage within the application",
-        "Collaborated with cross-functional teams to ensure seamless integration and delivery of features, meeting project deadlines and exceeding client expectations.",
+        "Proficient in crafting captivating user interfaces with Next.js, Tailwind CSS, and Material UI, leading to a significant boost in user engagement and driving up sales by an impressive percentage.",
+        "Developed and optimized robust Backend APIs utilizing Node.js and Express.js, resulting in a 40% reduction in processing time, saving the company 100+ hours per week, and driving a 20% increase in customer satisfaction.",
+        "Efficiently utilized MongoDB to manage data, contributing to a noticeable 25% increase in data‐driven decision‐making and revenue growth.",
+        "Spearheaded the migration of legacy systems to AWS, resulting in a 50% increase in system scalability, enabling seamless handling of 10,000+ concurrent users during peak periods.",
+        "Successfully integrated Google Place API, enhancing location‐based features, which in turn skyrocketed user satisfaction and conversion rates, leading to remarkable profit gains, notably increasing profits by over 40%.",
+        "Developed and deployed advanced recommendation algorithms leveraging TensorFlow, resulting in a significant boost in user engagement, with a 30% decrease in churn rate and a 20% increase in average revenue per user.",
+        "Streamlined and automated CI/CD processes on Amazon AWS, resulting in 30% faster development cycles and 60% faster deployments, significantly enhancing company agility, efficiency, and profitability.",
+        "Streamlined resource management and enhanced scalability by deploying applications on Amazon ECS, driving profit margins upwards by 40% and enabling seamless growth in a rapidly expanding market.",
+        "Recognized with the Best Team Leadership Award in a hackathon, showcasing ability to lead teams to deliver results, contributing to enhanced company productivity and profitability.",
       ],
     },
-    // {
-    //   title: "Frontend Web Development Intern",
-    //   company_name: "Croptr Technologies Privated Limited",
-    //   icon: croptr,
-    //   iconBg: "#E6DEDD",
-    //   date: "Sep 2022 - Feb 2023",
-    //   points: [
-    //     "Worked on two exciting web and android application project, leveraging the power of Javascript, React.js, Dart and Flutter to create a cutting-edge platform.",
-    //     "Collaborated with a talented team to design and develop innovative features, ensuring seamless user experiences and optimal performance.",
-    //     "Proactively stayed updated with the latest trends and technologies in web development, contributed to the team's continuous growth and improvement.",
-    //     "Embraced an agile development environment, adapting to changing priorities, and ensuring successful project completion.",
-    //   ],
-    // },
+    {
+      title: "Internship Trainee",
+      company_name: "SkyScanner",
+      icon: skyscanner,
+      iconBg: "#E6DEDD",
+      date: "Sep 2022 - Oct 2022",
+      points: [
+        "A significant enhancement in Flask backend skills was achieved, specializing in the development of efficient and reliable back‐end solutions. This proficiency was essential in contributing to high‐performance projects.",
+        "Valuable skills in SQL database management were developed, allowing for practical experience in designing, optimizing, and overseeing databases. This expertise contributed to maintaining data integrity and accessibility within the organization.",
+        "Collaboration with cross‐functional teams, iterative development, and efficient project delivery provided an in‐depth understanding of Agile Methodologies and their real‐world application.",
+      ],
+    },
+
+    {
+      title: "Summer Internship",
+      company_name: "JPMorgan Chase & Co.",
+      icon: jp,
+      iconBg: "#E6DEDD",
+      date: "Dec 2022 - Jan 2023",
+      points: [
+        "Acquired a strong foundation in data structures and algorithms with C++, enabling efficient Problem‐Solving and optimization in software development projects.",
+        "Proficiently worked with Spring Boot, gaining valuable insights into developing robust and scalable back‐end solutions, effectively leveraging Spring Boot’s features for building efficient applications.",
+      ],
+    },
   ];
 
   const educations = [
