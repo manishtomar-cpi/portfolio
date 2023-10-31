@@ -20,11 +20,7 @@ const Tech = () => {
     <BallCanvas icon={technology.icon} />
   </div>
 ))}
-   {technologies.slice(10,13).map((technology) => (
-  <div className="w-28 h-28" key={technology.name}>
-    <BallCanvas icon={technology.icon} />
-  </div>
-))}
+ 
 
       </div>
     </>
