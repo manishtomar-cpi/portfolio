@@ -57,12 +57,15 @@ const ExperienceCard = ({ experience }) => {
         ))}
       </ul>
       {experience.points.length > 1 && (
+        <div className="flex justify-start mt-4">
         <button
-          className="text-secondary text-[16px] underline cursor-pointer mt-4"
+          className="text-secondary text-[14px] underline cursor-pointer hover:text-white transition duration-300 ease-in-out"
           onClick={togglePointsDisplay}
         >
           {showAllPoints ? "View Less" : "View More"}
         </button>
+      </div>
+      
       )}
     </VerticalTimelineElement>
   );
@@ -75,7 +78,7 @@ const Experience = () => {
         <p className={styles.sectionSubText}>What I have done so far</p>
         <h2 className={styles.sectionHeadText}>Work Experience.</h2>
       </motion.div>
-      <div className="'mt-20 flex flex-col">
+      <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard

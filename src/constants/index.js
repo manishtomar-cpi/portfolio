@@ -1,14 +1,11 @@
+import { three } from "maath";
 import {
-    mobile,
-    backend,
-    creator,
+  
     web,
     javascript,
-    flutter,
     html,
     css,
     reactjs,
-   // redux,
     tailwind,
     nodejs,
     mongodb,
@@ -35,7 +32,30 @@ import {
     expense,
     todo,
     skyscanner,
-    jp
+    jp,
+    crossplatform,
+    iot,
+    devops,
+    cpi,
+    csharp,
+    maui,
+    express,
+    spring,
+    asp,
+    dynamo,
+    sqlserver,
+    firebase,
+    mysql,
+    aws,
+    azure,
+    kubernetes,
+    jenkins,
+    selenium,
+    gitlab,
+    bitbucket,
+    github,
+
+
   } from "../assets";
   
   export const navLinks = [
@@ -59,11 +79,15 @@ import {
   
   const services = [
     {
-      title: "Full Stack Developer",
+      title: "Full Stack Development",
       icon: web,
     },
     {
-      title: "Cloud Computing",
+      title: "Cross Platform Development",
+      icon: crossplatform,
+    },
+    {
+      title: "Cloud Services (AWS, Microsoft Azure)",
       icon: cloud,
     },
     {
@@ -71,63 +95,123 @@ import {
       icon: data,
     },
     {
-      title: "Problem Solving",
-      icon: problem,
+      title: "AWS IoT",
+      icon: iot,
     },
+    {
+      title: "DevOps",
+      icon: devops,
+    },
+   
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      category: "Programming Languages",
+      skills: [
+        { name: "C++", icon: cpp },
+        { name: "C#", icon: csharp },
+        { name: "JavaScript", icon: javascript },
+        { name: "Python", icon: python },
+        { name: "Java", icon: java },
+      ],
     },
     {
-      name: "CSS 3",
-      icon: css,
+      category: "Front End Development",
+      skills: [
+        { name: "HTML 5", icon: html },
+        { name: "CSS 3", icon: css },
+        { name: "Tailwind CSS", icon: tailwind },
+        { name: "React JS", icon: reactjs },
+        { name: "Next JS", icon: next },
+        { name: "Three JS", icon: threejs },
+        { name: ".NET MAUI", icon: maui }, // Add appropriate icon
+      ],
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      category: "Backend Development",
+      skills: [
+        { name: "Node JS", icon: nodejs },
+        { name: "Express JS", icon: express }, // Add appropriate icon
+        { name: "Spring Boot", icon: spring }, // Add appropriate icon
+        { name: "ASP.NET Core", icon: asp }, // Add appropriate icon for ASP.NET Core
+      ],
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      category: "Databases",
+      skills: [
+        { name: "MongoDB", icon: mongodb },
+        { name: "SQL Server", icon: sqlserver }, // Add appropriate icon
+        { name: "Google Firebase", icon: firebase },
+        { name: "Amazon DynamoDB", icon: dynamo },
+        { name: "MySQL", icon: mysql },
+      ],
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      category: "Cloud Technologies",
+      skills: [
+        { name: "AWS", icon: aws },
+        { name: "Microsoft Azure", icon: azure },
+      ],
     },
     {
-      name: "Next JS",
-      icon: next,
-    },
-    
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
- 
-     {
-      name: "Python",
-      icon: python,
-    },
-    {
-      name: "C++",
-      icon: cpp,
+      category: "Cloud Services",
+      skills: [
+        { name: "EC2", icon: aws }, // Add appropriate icon
+        { name: "S3", icon: aws }, // Add appropriate icon
+        { name: "SES", icon: aws }, // Add appropriate icon
+        { name: "SNS", icon: aws }, // Add appropriate icon
+        { name: "AWS IoT", icon: aws }, // Add appropriate icon
+        { name: "Lambda", icon: aws }, // AWS Lambda for serverless functions
+        { name: "RDS", icon: aws }, // AWS Relational Database Service
+        { name: "API Gateway", icon: aws }, // AWS API Gateway, add appropriate icon
+        // { name: "CloudFront", icon: cloudfront }, // AWS Content Delivery Network
+        { name: "Azure Functions", icon: azure }, // Azure serverless functions
+        { name: "Azure Blob Storage", icon: azure }, // Azure scalable object storage
+        { name: "Azure DevOps", icon: azure }, // Services for managing DevOps processes
+        { name: "Azure SQL Database", icon: azure }, // Azure SQL Database, add appropriate icon
+        { name: "Azure Kubernetes Service", icon: azure }, // Managed Kubernetes service
+      ],
     },
     {
-      name: "git",
-      icon: git,
+      category: "DevOps",
+      skills: [
+        { name: "Jenkins", icon: jenkins },
+        { name: "Docker", icon: docker },
+        { name: "Selenium", icon: selenium }, // Add appropriate icon
+        { name: "Kubernetes", icon: kubernetes }, // Add appropriate icon
+      ],
     },
-    
-    
+    {
+      category: "Version Control",
+      skills: [
+        { name: "Git", icon: git }, // Add appropriate icon
+        { name: "GitHub", icon: github }, // Add appropriate icon
+        { name: "Bitbucket", icon: bitbucket }, // Add appropriate icon
+        { name: "GitLab", icon: gitlab }, // Add appropriate icon
+        // { name: "Jira", icon: jira }, // Add appropriate icon
+      ],
+    },
   ];
   
   const experiences = [
+    {
+      title: "Placement Student - Innovation & Technology",
+      company_name: "Centre for Process Innovation, Middlesbrough, England",
+      icon: cpi,
+      iconBg: "#383E56",
+      date: "July 2024 - Preseent",
+      points: [
+        "5G Test Bed Project: Collaborating on the NHS 5G Test Bed initiative to enhance healthcare through the integration of cutting-edge 5G technology with IoT devices and sensors.",
+        "IoT Device Integration: Successfully integrated various IoT devices and sensors with AWS IoT, enabling real-time data collection and monitoring for healthcare applications.",
+        "Cloud-Based Data Management: Developed and deployed cloud-based solutions using Google Firebase and Amazon DynamoDB for secure and scalable data storage and management.",
+        "Web and Mobile Application Development: Built responsive and user-friendly web and mobile applications using C#, .NET MAUI, and Next.js to facilitate seamless interaction with IoT devices.",
+        "DevOps Implementation: Implemented CI/CD pipelines using Docker and Jenkins, ensuring smooth and efficient deployment of applications and services.",
+        "Collaboration and Communication: Worked closely with cross-functional teams, including developers, data scientists, and healthcare professionals, to deliver high-impact solutions.",
+        "Security and Compliance: Ensured all solutions adhere to NHS data security standards and regulations, maintaining the confidentiality and integrity of patient data.",
+        "Innovation in Healthcare: Contributed to the development of innovative healthcare solutions by leveraging the latest in 5G technology, IoT, and cloud computing.",
+      ],
+    },
     {
       title: "Software Development Engineer",
       company_name: "MoonDive Pvt Ltd, India",
