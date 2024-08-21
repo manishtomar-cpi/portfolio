@@ -78,6 +78,9 @@ import dewan from "./education/dewan.jpg";
 import crossplatform from "./crossplatform.png";
 import devops from "./devops.png";
 
+import swapit from "./swapit.png";
+import letsconnect from "./letsconnect.png";
+import doctorapp from "./doctorapp.png";
 import iot from "./iot.png";
 export {
   logo,
@@ -139,4 +142,8 @@ export {
   bitbucket,
   github,
   asp,
+  swapit,
+  letsconnect,
+  doctorapp
+
 };

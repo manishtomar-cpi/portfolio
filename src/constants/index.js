@@ -54,6 +54,9 @@ import {
     gitlab,
     bitbucket,
     github,
+    swapit,
+    letsconnect,
+    doctorapp
 
 
   } from "../assets";
@@ -321,64 +324,73 @@ import {
   
   const projects = [
     {
-      name: "MS Cafe",
+      name: "SwapIt",
       description:
-        "MS CAFE is a comprehensive and intuitive online food ordering application designed to provide a seamless online food ordering experience to its users. The app is built using React.js, for building user interfaces, and incorporates features such as Context API, useState Hook, useReducer Hook, useRef Hook, and forwardRef to ensure efficient and optimized performance.",
+        "SwapIt is an innovative platform I founded, designed to connect individuals who are looking to swap or donate their pre-owned items. By facilitating these exchanges, SwapIt helps reduce waste, promotes sustainability, and fosters a sense of community. Users can effortlessly list their items, browse available offerings, and engage in real-time chat with others interested in swapping or receiving donations. With built-in notifications, users are kept informed of potential swaps or donation opportunities, making the process seamless and efficient. To start using the application, simply click the 'Live' button on the top left corner of the image above",
       tags: [
         {
-          name: "React",
+          name: "Sustainability",
           color: "blue-text-gradient",
         },
         {
-          name: "Hooks",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Context API",
+          name: "WasteReduction",
           color: "pink-text-gradient",
         },
+        {
+          name: "Recycling",
+          color: "green-text-gradient",
+        },
       ],
-      image: mscafe,
-      source_code_link: "https://github.com/manishtomarr1/food-order-app-MS-Cafe-",
+      image: swapit,
+     watch_live : "https://swap-it-uk.netlify.app"
     },
     
     {
-      name: "Expense Tracker",
+      name: "Lets Connect",
       description:
-        "The Expense Tracker React App is a web application designed to help users keep track of their daily expenses. With this app, users can easily add their expenses, view their spending history, and track their budgets all in one place.",
+        "Let’s Connect is an application I developed with the goal of honing my skills in modern web development technologies, including Next.js 14, Docker, Jenkins, Kubernetes, and WebSockets. This platform enables users to send and receive friend requests, and once accepted, they can engage in real-time chat. Let’s Connect is designed to offer a smooth, responsive user experience, leveraging cutting-edge technologies to ensure scalability, reliability, and seamless communication. To start using the application, simply click the 'Live' button on the top left corner of the image above",
       tags: [
         {
-          name: "React",
+          name: "Next.js 14",
           color: "pink-text-gradient",
         },
         {
-          name: "Context API",
+          name: "Server Side Rendring",
           color: "green-text-gradient",
         },
-        // {
-        //   name: "dart",
-        //   color: "pink-text-gradient",
-        // },
+        {
+          name: "Web Socket",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Real-Time Chat",
+          color: "blue-text-gradient",
+        },
       ],
-      image: expense,
-      source_code_link: "https://github.com/manishtomarr1/Expense-Tracker-",
+      image: letsconnect,
+      source_code_link: "hhttps://github.com/manishtomar-cpi/lets-connect.git",
+      watch_live: "http://13.60.33.49:3000/",
     },
     {
-      name: "TO DO List",
+      name: "MediClinic",
       description:
-        "The To-Do List Web App is a web-based application designed to help users keep track of their daily tasks and priorities. The app is built using JavaScript, MongoDB, and Node.js. The front-end is developed using HTML, CSS, and JavaScript, while the back-end is developed using Node.js and MongoDB to store and retrieve task data.",
+        "MediClinic is a cross-platform application I developed using .NET MAUI, designed to help doctors efficiently manage their clinics and digitize their operations. This versatile app allows healthcare professionals to add and manage patient records, track patient history, schedule and monitor visits, and access detailed visit information, all from a single, intuitive interface. With MediClinic, doctors can seamlessly transition from traditional paper-based systems to a digital environment, enhancing the efficiency and organization of their clinics. The app is truly cross-platform, offering compatibility with Android, iOS, macOS, and Windows.",
       tags: [
         {
-          name: "React",
+          name: "Cross-Platform App",
           color: "blue-text-gradient",
         },
         {
-          name: "MongoDB",
+          name: ".NET MAUI",
           color: "green-text-gradient",
         },
+        {
+          name: "Digital Clinic",
+          color: "pink-text-gradient",
+        },
       ],
-      image: todo,
-      source_code_link: "https://github.com/manishtomarr1/to-do-list",
+      image: doctorapp,
+      source_code_link: "https://github.com/manishtomarr1/.netMAUI.git",
     },
 
     
