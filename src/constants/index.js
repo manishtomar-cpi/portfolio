@@ -369,7 +369,7 @@ import {
       ],
       image: letsconnect,
       source_code_link: "hhttps://github.com/manishtomar-cpi/lets-connect.git",
-      watch_live: "http://13.60.33.49:3000/",
+      watch_live: "http://13.48.57.71:3000/",
     },
     {
       name: "MediClinic",
