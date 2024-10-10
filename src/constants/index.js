@@ -56,7 +56,15 @@ import {
     github,
     swapit,
     letsconnect,
-    doctorapp
+    doctorapp,
+    c,
+    embprog,
+    raspberrypi,
+    embimg,
+    wifitocloud,
+    Espressif,
+    NordicSemiconductor,
+    dashboard
 
 
   } from "../assets";
@@ -98,7 +106,11 @@ import {
       icon: data,
     },
     {
-      title: "AWS IoT",
+      title: "Embedded Programming ",
+      icon: embprog,
+    },
+    {
+      title: "Internet of things (IoT)",
       icon: iot,
     },
     {
@@ -112,11 +124,22 @@ import {
     {
       category: "Programming Languages",
       skills: [
+        { name: "C", icon: c },
         { name: "C++", icon: cpp },
         { name: "C#", icon: csharp },
         { name: "JavaScript", icon: javascript },
         { name: "Python", icon: python },
         { name: "Java", icon: java },
+      ],
+    },
+    {
+      category: "Embedded Programming ",
+      skills: [
+        { name: "Nordic Semiconductor", icon: NordicSemiconductor },
+        { name: "Espressif", icon: Espressif }, // Add appropriate icon
+        { name: "Raspberry Pi", icon: raspberrypi },
+        { name: "WiFi to Cloud Transmission ", icon: wifitocloud },
+        { name: "Image Processing on Embedded Systems", icon: embimg },
       ],
     },
     {
@@ -150,6 +173,7 @@ import {
         { name: "MySQL", icon: mysql },
       ],
     },
+  
     {
       category: "Cloud Technologies",
       skills: [
@@ -391,6 +415,34 @@ import {
       ],
       image: doctorapp,
       source_code_link: "https://github.com/manishtomarr1/.netMAUI.git",
+    },
+
+    {
+      name: "WiFi to Cloud Real-Timae Dashboard",
+      description:
+        "Developed a real-time dashboard for temperature monitoring using the ESP32-S3 microcontroller and TMP117 sensor. Implemented Wi-Fi connectivity to transmit data to Google Firebase, ensuring robust cloud integration. Utilized Next.js 14 to create a dynamic web application that showcases real-time temperature data, embedded system metrics, and interactive graphs for monitoring temperature trends. This project highlights my expertise in embedded systems and cloud integration, reflecting my dedication to leveraging technology for effective data collection and analysis.",
+      tags: [
+        {
+          name: "WiFi to Cloud Transmission",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ESP32-S3",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TMP 117 Sensor",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Real-Timae Dashboard",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: dashboard,
+      source_code_link: "https://github.com/manishtomar-cpi/tmp117-esp32s3-firebase-webApp.git",
+      watch_live: "https://esp32-tmp117-wifi-to-cloud.netlify.app/",
+
     },
 
     

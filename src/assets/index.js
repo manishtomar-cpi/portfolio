@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import cloud from "./cloud.png";
+import embprog from "./embprog.png";
 
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -14,6 +15,7 @@ import javascript from "./tech/javascript.png";
 import python from "./tech/python.png";
 import java from "./tech/java.png";
 import csharp from "./tech/csharp.png";
+import c from "./tech/c.png";
 
 //front end development
 import css from "./tech/css.png";
@@ -54,6 +56,15 @@ import github from "./tech/github.png";
 import gitlab from "./tech/gitlab.png";
 import bitbucket from "./tech/bitbucket.png";
 
+//embd-prog
+
+import NordicSemiconductor from "./tech/NordicSemiconductor.webp";
+import Espressif from "./tech/Espressif.png";
+import wifitocloud from "./tech/wifitocloud.png";
+import embimg from "./tech/embimg.webp";
+import raspberrypi from "./tech/raspberrypi.svg";
+
+
 import hal from "./company/hal.png";
 import croptr from "./company/croptr.png";
 import moondive from "./company/moondive.png";
@@ -81,6 +92,7 @@ import devops from "./devops.png";
 import swapit from "./swapit.png";
 import letsconnect from "./letsconnect.png";
 import doctorapp from "./doctorapp.png";
+import dashboard from "./dashboard.png";
 import iot from "./iot.png";
 export {
   logo,
@@ -144,6 +156,13 @@ export {
   asp,
   swapit,
   letsconnect,
-  doctorapp
-
+  doctorapp,
+  c,
+  embprog,
+  raspberrypi,
+  embimg,
+  wifitocloud,
+  Espressif,
+  NordicSemiconductor,
+  dashboard,
 };
