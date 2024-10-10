@@ -379,7 +379,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "Server Side Rendring",
+          name: "Server Side Rendering",
           color: "green-text-gradient",
         },
         {
