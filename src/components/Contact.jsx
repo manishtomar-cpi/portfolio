@@ -8,6 +8,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import resume from "../assets/resume.pdf"; // Import the resume file
 
 const Contact = () => {
   const formRef = useRef();
@@ -105,9 +106,13 @@ const Contact = () => {
               >
                 <FaInstagram size={35} color="#E4405F" />
               </a>
-              {/* <a href="/assets/resume.pdf"  download="Manish_Resume.pdf"className="cursor-pointer" target="_blank">
-              <FaFilePdf size={35} color="#FF5722" />
-            </a> */}
+              <a
+                href={resume}
+                download="Manish_Resume.pdf"
+                className="cursor-pointer"
+              >
+                <FaFilePdf size={35} color="#FF5722" />
+              </a>
             </div>
           </div>
         </div>
