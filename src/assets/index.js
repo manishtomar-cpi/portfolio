@@ -94,6 +94,7 @@ import letsconnect from "./letsconnect.png";
 import doctorapp from "./doctorapp.png";
 import dashboard from "./dashboard.png";
 import iot from "./iot.png";
+import clinic from "./clinic.png"
 export {
   logo,
   backend,
@@ -165,4 +166,5 @@ export {
   Espressif,
   NordicSemiconductor,
   dashboard,
+  clinic,
 };

@@ -64,7 +64,8 @@ import {
     wifitocloud,
     Espressif,
     NordicSemiconductor,
-    dashboard
+    dashboard,
+    clinic,
 
 
   } from "../assets";
@@ -78,6 +79,10 @@ import {
       id: "work",
       title: "Work",
     },
+    // {
+    //   id: "projects",
+    //   title: "Projects"
+    // },
     {
       id: "education",
       title: "Education",
@@ -347,6 +352,36 @@ import {
   ];
   
   const projects = [
+      {
+        name: "ClinicEase",
+        description:
+          "ClinicEase is a comprehensive clinic management web application developed to streamline patient management, appointment scheduling, and treatment tracking. Designed for doctors, the app features functionalities like patient search, visit history, financial balance tracking, and real-time chat. The dashboard provides insights into total patients, ongoing treatments, missed appointments, and outstanding balances, with all data displayed in an intuitive and professional UI. The app also allows the doctor to reschedule missed appointments and track treatment progress efficiently.",
+        tags: [
+          {
+            name: "Healthcare",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "ClinicManagement",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "Next.js",
+            color: "green-text-gradient",
+          },
+          {
+            name: "Firebase",
+            color: "pink-text-gradient",
+          },{
+            name: "Real-Time Chat",
+            color: "green-text-gradient",
+          },
+        ],
+        image: clinic,
+        source_code_link: "https://github.com/manishtomar-cpi/clinic-management",
+        watch_live: "https://clinic-ease.netlify.app/",
+      },
+        
     {
       name: "SwapIt",
       description:
@@ -392,7 +427,7 @@ import {
         },
       ],
       image: letsconnect,
-      source_code_link: "hhttps://github.com/manishtomar-cpi/lets-connect.git",
+      source_code_link: "https://github.com/manishtomar-cpi/lets-connect.git",
       watch_live: "http://13.48.57.71:3000/",
     },
     {
